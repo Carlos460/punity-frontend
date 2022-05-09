@@ -1,0 +1,19 @@
+version: 0.1
+
+phases:
+  post_build:
+    commands:
+      - echo "Mode Production"
+      - echo "Production Mode - Deleting old source application files..."
+      - rm -rf public/ src/ buildspec*.yaml
+  build:
+    commands:
+      - echo "Installing dependicies..."
+      - npm install 
+      - echo "Create the build..."
+      - npm run build-prod
+      
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'build'

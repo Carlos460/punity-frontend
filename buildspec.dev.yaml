@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  post_build:
+    commands:
+      - echo "Mode Development"
+      - echo "Deleting old source application files..."
+      - rm -rf public/ src/ buildspec.yaml
+  build:
+    commands:
+      - echo "Installing dependicies..."
+      - npm install 
+      - echo "Create the build..."
+      - npm run build-dev
+      
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'build'
