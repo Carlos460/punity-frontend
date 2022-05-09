@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // Components
-import DefaultTemplate from '../Layouts/default';
+import DefaultTemplate from '../Layouts/DefaultTemplate';
 
 import askImage from '../../assets/ask.png';
 

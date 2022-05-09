@@ -1,6 +1,6 @@
 import React from 'react';
 // Components
-import DefaultTemplate from '../Layouts/default';
+import DefaultTemplate from '../Layouts/DefaultTemplate';
 import Features from '../Components/features';
 import LatestQuestions from '../Components/latestquestions';
 import PricingCard from '../Components/pricingcard';

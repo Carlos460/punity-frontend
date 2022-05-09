@@ -1,5 +1,5 @@
 import React from 'react';
-import DefaultTemplate from '../Layouts/default';
+import DefaultTemplate from '../Layouts/DefaultTemplate';
 // Import Components
 import Header from '../Components/header';
 

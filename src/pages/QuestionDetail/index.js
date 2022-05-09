@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // Components
-import DefaultTemplate from '../Layouts/default';
+import DefaultTemplate from '../Layouts/DefaultTemplate';
 
 import {
   Container,

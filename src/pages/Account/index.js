@@ -8,7 +8,7 @@ import Security from './subpages/Security';
 import Communities from './subpages/Communities';
 
 // Import Components
-import DefaultTemplate from '../Layouts/default';
+import DefaultTemplate from '../Layouts/DefaultTemplate';
 import Header from '../Components/header';
 
 // Import Styles
