@@ -9,7 +9,7 @@ import Communities from './subpages/Communities';
 
 // Import Components
 import DefaultTemplate from '../Layouts/DefaultTemplate';
-import Header from '../Components/header';
+import Header from '../Components/Header';
 
 // Import Styles
 import {

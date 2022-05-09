@@ -1,7 +1,7 @@
 import React from 'react';
 import DefaultTemplate from '../Layouts/DefaultTemplate';
 // Import Components
-import Header from '../Components/header';
+import Header from '../Components/Header';
 
 function PageNotFound() {
   return (
