@@ -4,7 +4,7 @@ import DefaultTemplate from '../Layouts/DefaultTemplate';
 import Features from '../Components/Features';
 import LatestQuestions from '../Components/LatestQuestion';
 import PricingCard from '../Components/PricingCard';
-import Header from '../Components/header';
+import Header from '../Components/Header';
 
 function Home() {
   return (
