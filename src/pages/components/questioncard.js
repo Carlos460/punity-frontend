@@ -1,11 +1,11 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-import { Link } from "react-router-dom";
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
-function questionCards() {
+function QuestionCard() {
   return (
     <div>
-      <Card className="w-5 m-2 border rounded-0" style={{ width: "20rem" }}>
+      <Card className="w-5 m-2 border rounded-0" style={{ width: '20rem' }}>
         <Card.Body>
           <Card.Title>
             <Link className="title-link" href="/hello">
@@ -55,4 +55,4 @@ function questionCards() {
   );
 }
 
-export default questionCards;
+export default QuestionCard;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Footer from '../Components/footer';
+import Footer from '../Components/Footer';
 
 import {
   Container,

@@ -1,7 +1,7 @@
 import React from 'react';
 // Components
-import NavigationBar from '../Components/navbar';
-import Footer from '../Components/footer';
+import NavigationBar from '../Components/NavigationBar';
+import Footer from '../Components/Footer';
 
 function DefaultTemplate(props) {
   return (

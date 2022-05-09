@@ -1,7 +1,7 @@
 import React from 'react';
 //Components
 import DefaultTemplate from '../Layouts/DefaultTemplate';
-import LatestQuestions from '../Components/latestquestions';
+import LatestQuestions from '../Components/LatestQuestion';
 
 function Questions() {
   return (

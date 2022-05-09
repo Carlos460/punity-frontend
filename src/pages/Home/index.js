@@ -1,9 +1,9 @@
 import React from 'react';
 // Components
 import DefaultTemplate from '../Layouts/DefaultTemplate';
-import Features from '../Components/features';
-import LatestQuestions from '../Components/latestquestions';
-import PricingCard from '../Components/pricingcard';
+import Features from '../Components/Features';
+import LatestQuestions from '../Components/LatestQuestion';
+import PricingCard from '../Components/PricingCard';
 import Header from '../Components/header';
 
 function Home() {
