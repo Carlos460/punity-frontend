@@ -1,6 +1,6 @@
 import React from 'react';
 // Component Imports
-import QuestionCard from './QuestionCard';
+import QuestionCard from '../QuestionCard';
 
 function LatestQuestions() {
   return (
