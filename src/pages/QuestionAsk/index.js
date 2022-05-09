@@ -40,7 +40,7 @@ export default function QuestionAsk() {
         <AnswerContainer>
           <AnswerDetailContainer>
             <h1>
-              Ask a new Question to P'Unity <img src={askImage} />
+              Ask a new Question to P'Unity <img src={askImage} alt="ask" />
             </h1>
             <CheckboxContainer>
               <CheckboxContent>
